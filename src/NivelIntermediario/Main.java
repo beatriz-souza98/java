@@ -5,30 +5,27 @@ public class Main {
 
         //Criar o ninja Naruto
 
-        Ninja Naruto = new Ninja();
+        Uzumaki Naruto = new Uzumaki();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.idade = 18;
         Naruto.aldeia = "Aldeia da Folha";
+        Naruto.ModoSabio();
 
-        //Aplicando metodos aos meus objetos
+        // Criar o ninja Sasuke
 
-        Naruto.SharinganAtivado();
-
-        // Criar ninja Sasuke
-
-        Ninja Sasuke = new Ninja();
+        Uchiha Sasuke = new Uchiha();
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 17;
         Sasuke.aldeia = "Aldeia da Folha";
+        Sasuke.SharinganAtivado();
 
-        // Fazer metodo String que retorna uma String
+        // Criar a ninja Sakura
 
-        String chamandoMetodo = Sasuke.boasVindasMeuNomeE();
-        System.out.println(chamandoMetodo);
-
-        //Fazer metodo int que mostra um int
-        int idadeQueFalta = Sasuke.anosParaSerHohake(25);
-        System.out.println("Ainda falta " + idadeQueFalta + " anos para você se tornar um Hohake");
+        Haruno Sakura = new Haruno();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.idade = 15;
+        Sakura.aldeia = "Aldeia da Folha";
+        Sakura.ModoCura();
 
     }
 }
