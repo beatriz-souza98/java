@@ -27,5 +27,23 @@ public class Main {
         Sakura.aldeia = "Aldeia da Folha";
         Sakura.ModoCura();
 
+        // Criar a ninja Hinata
+
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata Hyunga";
+        Hinata.idade = 17;
+        Hinata.aldeia = "Aldeia da Folha";
+        Hinata.ByakuganAtivado();
+
+        // Criar ninja Boruto
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyunga Uzumaki";
+        Boruto.idade = 9;
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
+        Boruto.ModoSabio();
+
     }
 }
