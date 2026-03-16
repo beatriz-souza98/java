@@ -9,6 +9,7 @@ public class Main {
         Naruto.nome = "Naruto Uzumaki";
         Naruto.idade = 18;
         Naruto.aldeia = "Aldeia da Folha";
+        Naruto.habilidadeEspecial();
         Naruto.ModoSabio();
 
         // Criar o ninja Sasuke
@@ -17,6 +18,7 @@ public class Main {
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.idade = 17;
         Sasuke.aldeia = "Aldeia da Folha";
+        Sasuke.habilidadeEspecial();
         Sasuke.SharinganAtivado();
 
         // Criar a ninja Sakura
@@ -25,6 +27,7 @@ public class Main {
         Sakura.nome = "Sakura Haruno";
         Sakura.idade = 15;
         Sakura.aldeia = "Aldeia da Folha";
+        Sakura.habilidadeEspecial();
         Sakura.ModoCura();
 
         // Criar a ninja Hinata
@@ -33,6 +36,7 @@ public class Main {
         Hinata.nome = "Hinata Hyunga";
         Hinata.idade = 17;
         Hinata.aldeia = "Aldeia da Folha";
+        Hinata.habilidadeEspecial();
         Hinata.ByakuganAtivado();
 
         // Criar ninja Boruto
@@ -41,6 +45,7 @@ public class Main {
         Boruto.nome = "Boruto Hyunga Uzumaki";
         Boruto.idade = 9;
         Boruto.aldeia = "Aldeia da Folha";
+        Boruto.habilidadeEspecial();
         Boruto.AtivarOKarma();
         Boruto.AtivarJougan();
         Boruto.ModoSabio();
