@@ -50,5 +50,14 @@ public class Main {
         Boruto.AtivarJougan();
         Boruto.ModoSabio();
 
+        // Criar Hokage Hashirama
+
+        Hokages Hashirama = new Hokages("Hashirama", 39, false);
+
+        // Criar Hokage Tobirama
+
+        Hokages Tobirama = new Hokages("Tobirama Seju", 47, false);
+        System.out.println("Nome: " + Tobirama.nome +  System.lineSeparator() + "Idade: " + Tobirama.idade);
+
     }
 }
