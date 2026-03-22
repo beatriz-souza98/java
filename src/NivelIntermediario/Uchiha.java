@@ -9,4 +9,8 @@ public void SharinganAtivado(){
     public void habilidadeEspecial() {
         System.out.println("Meu nome é " + nome + " e eu sou um Uchiha");
     }
+
+    public void estrategiaDeBatalha(){
+        System.out.println("Essa é minha estrategia de batalha");
+    }
 }

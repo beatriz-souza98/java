@@ -1,6 +1,6 @@
 package NivelIntermediario;
 
-public class Ninja {
+public abstract class Ninja implements EstrategiaDeBatalha{
 
     String nome;
     String aldeia;
@@ -8,6 +8,11 @@ public class Ninja {
 
     public void habilidadeEspecial(){
         System.out.println("Meu nome é " + nome + " e esse é meu atque especial");
+    }
+
+    @Override
+    public void estrategiaDeBatalha(){
+        System.out.println("Essa é minha estrategia de combate");
     }
 
     }
