@@ -52,12 +52,11 @@ public class Main {
 
         // Criar Hokage Hashirama
 
-        Hokages Hashirama = new Hokages("Hashirama", 39, false);
+        Senju Hashirama = new Senju();
+        Hashirama.nome = "Hashirama Senju";
+        Hashirama.idade = 35;
+        Hashirama.sabedoria();
 
-        // Criar Hokage Tobirama
-
-        Hokages Tobirama = new Hokages("Tobirama Seju", 47, false);
-        System.out.println("Nome: " + Tobirama.nome +  System.lineSeparator() + "Idade: " + Tobirama.idade);
 
     }
 }

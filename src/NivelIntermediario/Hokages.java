@@ -1,11 +1,15 @@
 package NivelIntermediario;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
     boolean vivoOuNao;
 
+    public abstract void sabedoria();
+
+    public Hokages() {
+    }
 
     public Hokages(String nome, int idade, boolean vivoOuNao){
         this.nome = nome;
