@@ -24,5 +24,4 @@ public abstract class Ninja implements EstrategiaDeBatalha{
     public void estrategiaDeBatalha(){
         System.out.println("Essa é minha estrategia de combate");
     }
-
-    }
+}

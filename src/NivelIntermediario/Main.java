@@ -31,5 +31,13 @@ public class Main {
         itachi.habilidadeEspecial();
         itachi.estrategiaDeBatalha();
         itachi.SharinganAtivado();
+
+        //Obj hatake
+
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi Hatake";
+        kakashi.idade = 48;
+        kakashi.aldeia = "Aldeia da folha";
+        kakashi.boasVindas();
     }
 }
